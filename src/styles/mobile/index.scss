@@ -1,0 +1,27 @@
+@media screen and (max-width: $m-mobile-width) {
+
+  /* 弹窗 */
+  .el-dialog {
+    --el-dialog-width: 94% !important;
+  }
+
+  /* 404页面 */
+  .error-desc {
+    padding: 80px 20px !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+
+    .error-h1 {
+      font-size: 80px !important;
+    }
+
+    .el-divider {
+      height: 1px !important;
+    }
+
+    .error-p {
+      font-size: 40px !important;
+    }
+  }
+
+}

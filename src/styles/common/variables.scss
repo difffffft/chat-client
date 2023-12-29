@@ -1,0 +1,26 @@
+/**
+用于界面的响应式变量，主要用来识别小屏幕
+Responsive variables for interfaces, mainly used to recognize small screens
+
+
+@media screen and (max-width: $m-mobile-width) {
+
+}
+ */
+$m-mobile-width: 1000px;
+
+
+
+/**
+历史记录的背景
+Context of the historical record
+
+ */
+$m-history-bg:#000000;
+
+/**
+聊天界面的背景
+Background of the chat interface
+
+ */
+$m-chat-bg:#343541;

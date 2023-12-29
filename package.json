@@ -1,0 +1,33 @@
+{
+  "name": "chat-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@kangc/v-md-editor": "^2.3.18",
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.3",
+    "js-cookie": "^3.0.5",
+    "marked": "^11.1.0",
+    "nanoid": "^5.0.4",
+    "pinia": "^2.1.7",
+    "prismjs": "^1.29.0",
+    "qs": "^6.11.2",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.1",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vueuse/core": "^10.7.0",
+    "@vueuse/nuxt": "^10.7.0",
+    "sass": "^1.69.5",
+    "vite": "^5.0.5"
+  }
+}
